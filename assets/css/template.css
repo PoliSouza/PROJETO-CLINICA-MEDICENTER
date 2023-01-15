@@ -409,7 +409,7 @@ footer .widget_title_text {
     background-color: var(--cor-primaria);
 }
 
-@media (max-width:600px;) {
+@media (max-width:600px) {
 
     .banner_headline h1 {
         font-size: 55px;
@@ -436,7 +436,7 @@ footer .widget_title_text {
         flex-direction: column;
     }
 
-    .footer area {
+    .footer_area {
         flex-direction: column;
         padding: 20px;
     }
@@ -452,6 +452,10 @@ footer .widget_title_text {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: var(--cor-terciaria);
     }
 
     header {
